@@ -1,0 +1,10 @@
+{
+  "name": "vercel-remix-pnpm-bug",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel"
+  },
+  "devDependencies": {
+    "turbo": "1.2.14"
+  }
+}
