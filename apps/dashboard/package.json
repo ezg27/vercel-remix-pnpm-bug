@@ -4,7 +4,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "remix build",
-    "dev": "remix dev"
+    "dev": "PORT=3001 remix dev"
   },
   "dependencies": {
     "@remix-run/node": "^1.5.1",
@@ -12,7 +12,8 @@
     "@remix-run/vercel": "^1.5.1",
     "@vercel/node": "^1.15.2",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "ui": "workspace:*"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.5.1",

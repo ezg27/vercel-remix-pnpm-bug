@@ -19,10 +19,12 @@ importers:
       react: ^17.0.2
       react-dom: ^17.0.2
       typescript: ^4.6.4
+      ui: workspace:*
     dependencies:
       next: 12.1.6_sfoxds7t5ydpegc3knd667wn6m
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
+      ui: link:../../packages/ui
     devDependencies:
       '@types/node': 17.0.35
       '@types/react': 17.0.45
@@ -46,6 +48,7 @@ importers:
       react: ^17.0.2
       react-dom: ^17.0.2
       typescript: ^4.6.4
+      ui: workspace:*
     dependencies:
       '@remix-run/node': 1.5.1_sfoxds7t5ydpegc3knd667wn6m
       '@remix-run/react': 1.5.1_sfoxds7t5ydpegc3knd667wn6m
@@ -53,6 +56,7 @@ importers:
       '@vercel/node': 1.15.3
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
+      ui: link:../../packages/ui
     devDependencies:
       '@remix-run/dev': 1.5.1_sfoxds7t5ydpegc3knd667wn6m
       '@remix-run/eslint-config': 1.5.1_ayycmnu6ctgy4baym4n633rb7y
