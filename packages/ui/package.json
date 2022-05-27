@@ -13,7 +13,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build-fast": "tsup src/index.ts --format cjs,esm",
-    "build": "pnpm run build-fast --dts-resolve"
+    "build": "pnpm run build-fast -- --dts-resolve"
   },
   "devDependencies": {
     "tsup": "6.0.1",
